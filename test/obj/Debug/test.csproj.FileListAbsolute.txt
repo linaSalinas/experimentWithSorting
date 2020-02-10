@@ -1,0 +1,15 @@
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\test.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\test.pdb
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\sorting.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\sorting.pdb
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\obj\Debug\test.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\obj\Debug\test.csproj.CopyComplete
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\obj\Debug\test.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\test\obj\Debug\test.pdb

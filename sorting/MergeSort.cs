@@ -8,57 +8,62 @@ namespace sorting
 {
     public class MergeSort
     {
-        /**
-        int[] A;
-        int start;
-        int mid;
-        int end;
+		private void merge(int[] Array, int start, int mid, int end)
+		{
+			// creates a temporal array
+			int[] temporal = new int[end - start + 1];
 
-        public MergeSort(int[] A, int start, int end)
-        {
-            this.A = new int[];
-            this.start = start;
-            this.mid = end;
-        }
+			// centinels for both intervals and for temporal
+			int i = start, j = mid + 1, k = 0;
 
-        public void MSort(int[] A, int start, int end)
-        {
-            return MSort(A[0], start, mid);
+			// traverse both arrays and in each iteration add smaller of both elements in temp 
+			while (i <= mid && j <= end)
+			{
+				if (Array[i] <= Array[j])
+				{
+					temporal[k] = Array[i];
+					k += 1; i += 1;
+				}
+				else
+				{
+					temporal[k] = Array[j];
+					k += 1; j += 1;
+				}
+			}
 
-        }
+			// add elements left in the first interval 
+			while (i <= mid)
+			{
+				temporal[k] = Array[i];
+				k += 1; i += 1;
+			}
 
-        private void MSort(int[] A, int start, int end)
-        {
-            if (start == end)
-            {
-                return A[i];
-            }
-            else
-            {
-                int m = (start + mid) / 2;
+			// add elements left in the second interval 
+			while (j <= end)
+			{
+				temporal[k] = Array[j];
+				k += 1; j += 1;
+			}
 
-                MSort(A, start, m);
+			// copy temp to original interval
+			for (i = start; i <= end; i += 1)
+			{
+				Array[i] = temporal[i - start];
+			}
+		}
 
-                if (start < m)
-                {
-                    return start;
-                }
-                else
-                {
-                    return MSort(A, start, m);
-                }
+		// Arr is an array of integer type
+		// start and end are the starting and ending index of current interval of Arr
 
-                MSort(A, m + 1, end);
-
-                if (end < m)
-                {
-                    return end;
-                }
-                else
-                {
-                    return MSort(A, start, m);
-                }
-            }
-        }
-    }*/
+		public void mergeSort(int[] Array, int start, int end)
+		{
+			if (start < end)
+			{
+				int mid = (start + end) / 2;
+				mergeSort(Array, start, mid);
+				mergeSort(Array, mid + 1, end);
+				merge(Array, start, mid, end);
+			}
+		}
+	}
 }

@@ -1,0 +1,5 @@
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\sorting\bin\Debug\sorting.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\sorting\bin\Debug\sorting.pdb
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\sorting\obj\Debug\sorting.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\sorting\obj\Debug\sorting.dll
+C:\Users\Usuario\source\repos\ExperimentingWithSorting\sorting\obj\Debug\sorting.pdb
