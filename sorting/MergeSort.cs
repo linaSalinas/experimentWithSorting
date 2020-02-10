@@ -8,6 +8,20 @@ namespace sorting
 {
     public class MergeSort
     {
+
+		// Arr is an array of integer type
+		// start and end are the starting and ending index of current interval of Arr
+		public void mergeSort(int[] Array, int start, int end)
+		{
+			if (start < end)
+			{
+				int mid = (start + end) / 2;
+				mergeSort(Array, start, mid);
+				mergeSort(Array, mid + 1, end);
+				merge(Array, start, mid, end);
+			}
+		}
+
 		private void merge(int[] Array, int start, int mid, int end)
 		{
 			// creates a temporal array
@@ -49,20 +63,6 @@ namespace sorting
 			for (i = start; i <= end; i += 1)
 			{
 				Array[i] = temporal[i - start];
-			}
-		}
-
-		// Arr is an array of integer type
-		// start and end are the starting and ending index of current interval of Arr
-
-		public void mergeSort(int[] Array, int start, int end)
-		{
-			if (start < end)
-			{
-				int mid = (start + end) / 2;
-				mergeSort(Array, start, mid);
-				mergeSort(Array, mid + 1, end);
-				merge(Array, start, mid, end);
 			}
 		}
 	}
