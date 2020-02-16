@@ -10,12 +10,15 @@ namespace sorting
     {
 
 		// Arr is an array of integer type
-		// start and end are the starting and ending index of current interval of Arr
+		// start and end are the starting and ending index of current array
 		public void mergeSort(int[] Array, int start, int end)
 		{
 			if (start < end)
 			{
+				//middle index of the array
 				int mid = (start + end) / 2;
+				
+				//divides array into two to make esier its comparation, then merges it to build the array again.
 				mergeSort(Array, start, mid);
 				mergeSort(Array, mid + 1, end);
 				merge(Array, start, mid, end);
