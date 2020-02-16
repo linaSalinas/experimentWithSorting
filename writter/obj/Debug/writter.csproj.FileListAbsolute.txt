@@ -1,0 +1,6 @@
+D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\bin\Debug\writter.exe.config
+D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\bin\Debug\writter.exe
+D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\bin\Debug\writter.pdb
+D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\obj\Debug\writter.exe
+D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\obj\Debug\writter.pdb
+D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\obj\Debug\writter.csprojAssemblyReference.cache
