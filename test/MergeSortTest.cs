@@ -21,7 +21,7 @@ namespace test
         public const String NAME_FILE_Orden_Descendente_10_5 = "Orden-Ascendente-10^5";
         public const String NAME_FILE_Orden_Descendente_10_8 = "Orden-Ascendente-10^8";
 
-        public const String REPORT_ROUT = "..\\..\\..\\data\\Report.txt";
+        public const String REPORT_ROUT = "..\\..\\..\\data\\ReportMerge.txt";
 
         public void setUpScenary1() {
             
