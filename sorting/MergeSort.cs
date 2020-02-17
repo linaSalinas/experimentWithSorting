@@ -11,7 +11,7 @@ namespace sorting
 
 		// Arr is an array of integer type
 		// start and end are the starting and ending index of current array
-		public void mergeSort(int[] Array, int start, int end)
+		public void mergeSort(String[] Array, int start, int end)
 		{
 			if (start < end)
 			{
@@ -25,10 +25,10 @@ namespace sorting
 			}
 		}
 
-		private void merge(int[] Array, int start, int mid, int end)
+		private void merge(String[] Array, int start, int mid, int end)
 		{
 			// creates a temporal array
-			int[] temporal = new int[end - start + 1];
+			String[] temporal = new String[end - start + 1];
 
 			// centinels for both intervals and for temporal
 			int i = start, j = mid + 1, k = 0;
@@ -36,7 +36,9 @@ namespace sorting
 			// traverse both arrays and in each iteration add smaller of both elements in temp 
 			while (i <= mid && j <= end)
 			{
-				if (Array[i] <= Array[j])
+				int comp1 = int.Parse(Array[i]);
+				int comp2 = int.Parse(Array[j]);
+				if (comp1 <= comp2)
 				{
 					temporal[k] = Array[i];
 					k += 1; i += 1;

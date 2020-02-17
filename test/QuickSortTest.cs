@@ -11,7 +11,6 @@ namespace test
         private QuickSort quick;
         private String[] testArray;
 
-
         public const String NAME_FILE_Aleatorio_10_2 = "Aleatorio-10^2";
         public const String NAME_FILE_Aleatorio_10_5 = "Aleatorio-10^5";
         public const String NAME_FILE_Aleatorio_10_8 = "Aleatorio-10^8";
@@ -29,13 +28,13 @@ namespace test
         {
 
         }
-
+        
         public void setUpScenary2()
         {
             quick = new QuickSort();
             testArray = new String[] { "1", "4", "2", "0", "15", "8", "20", "7" };
         }
-
+        
         public void setUpScenary3()
         {
             Reader(NAME_FILE_Aleatorio_10_2);
@@ -94,12 +93,12 @@ namespace test
         {
             setUpScenary2();
             quick.quickSort(testArray, 0, testArray.Length - 1);
-            for (int i = 0; i < testArray.Length; i++)
+            for (int i = 0; i < testArray.Length - 1; i++)
             {
-                Assert.IsTrue(testArray[i] < testArray[i + 1]);
+                Assert.IsTrue((testArray[i].CompareTo(testArray[i+1])) == -1);
             }
         }
-
+       
         [TestMethod]
         public void TestQuickSortTime1()
         {
@@ -433,6 +432,6 @@ namespace test
                 Console.WriteLine("Exception: " + e.Message);
             }
         }
+        
     }
-}
 }

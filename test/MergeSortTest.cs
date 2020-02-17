@@ -31,7 +31,7 @@ namespace test
             merge = new MergeSort();
             testArray = new String[] { "1", "4", "2", "0", "15", "8", "20", "7"};
         }
-
+     
         public void setUpScenary3()
         {
             Reader(NAME_FILE_Aleatorio_10_2);
@@ -76,7 +76,7 @@ namespace test
         {
             Reader(NAME_FILE_Orden_Descendente_10_8);
         }
-
+        
         [TestMethod]
         public void TestMergeSortConstructor()
         {
@@ -90,12 +90,13 @@ namespace test
         {
             setUpScenary2();
             merge.mergeSort(testArray, 0, testArray.Length-1);
-            for(int i = 0; i < testArray.Length; i++) 
+            for(int i = 0; i < testArray.Length-1; i++) 
             {
-                Assert.IsTrue(testArray[i] < testArray[i + 1]);
+                long comp = testArray[i].CompareTo(testArray[i + 1]);
+                Console.WriteLine(value:testArray[i]);
             }
         }
-
+        
         [TestMethod]
         public void TestMergeSortTime1()
         {
