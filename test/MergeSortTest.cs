@@ -1,5 +1,6 @@
 ﻿using System;
 using sorting;
+using writter;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.IO;
 
@@ -10,16 +11,6 @@ namespace test
     {
         private MergeSort merge;
         private String[] testArray;
-
-        public const String NAME_FILE_Aleatorio_10_2 = "Aleatorio-10^2";
-        public const String NAME_FILE_Aleatorio_10_5 = "Aleatorio-10^5";
-        public const String NAME_FILE_Aleatorio_10_8 = "Aleatorio-10^8";
-        public const String NAME_FILE_Orden_Ascendente_10_2 = "Orden-Ascendente-10^2";
-        public const String NAME_FILE_Orden_Ascendente_10_5 = "Orden-Ascendente-10^5";
-        public const String NAME_FILE_Orden_Ascendente_10_8 = "Orden-Ascendente-10^8";
-        public const String NAME_FILE_Orden_Descendente_10_2 = "Orden-Ascendente-10^2";
-        public const String NAME_FILE_Orden_Descendente_10_5 = "Orden-Ascendente-10^5";
-        public const String NAME_FILE_Orden_Descendente_10_8 = "Orden-Ascendente-10^8";
 
         public const String REPORT_ROUT = "..\\..\\..\\data\\ReportMerge.txt";
 
@@ -34,47 +25,47 @@ namespace test
      
         public void setUpScenary3()
         {
-            Reader(NAME_FILE_Aleatorio_10_2);
+            Reader(loader.NAME_FILE_Aleatorio_10_2);
         }
 
         public void setUpScenary4()
         {
-            Reader(NAME_FILE_Aleatorio_10_5);
+            Reader(loader.NAME_FILE_Aleatorio_10_4);
         }
 
         public void setUpScenary5()
         {
-            Reader(NAME_FILE_Aleatorio_10_8);
+            Reader(loader.NAME_FILE_Aleatorio_10_6);
         }
 
         public void setUpScenary6()
         {
-            Reader(NAME_FILE_Orden_Ascendente_10_2);
+            Reader(loader.NAME_FILE_Orden_Ascendente_10_2);
         }
 
         public void setUpScenary7()
         {
-            Reader(NAME_FILE_Orden_Ascendente_10_5);
+            Reader(loader.NAME_FILE_Orden_Ascendente_10_4);
         }
 
         public void setUpScenary8()
         {
-            Reader(NAME_FILE_Orden_Ascendente_10_8);
+            Reader(loader.NAME_FILE_Orden_Ascendente_10_6);
         }
 
         public void setUpScenary9()
         {
-            Reader(NAME_FILE_Orden_Descendente_10_2);
+            Reader(loader.NAME_FILE_Orden_Descendente_10_2);
         }
 
         public void setUpScenary10()
         {
-            Reader(NAME_FILE_Orden_Descendente_10_5);
+            Reader(loader.NAME_FILE_Orden_Descendente_10_4);
         }
 
         public void setUpScenary11()
         {
-            Reader(NAME_FILE_Orden_Descendente_10_8);
+            Reader(loader.NAME_FILE_Orden_Descendente_10_6);
         }
         
         [TestMethod]
@@ -100,7 +91,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime1()
         {
-            String report = "TestMergeSortTime1\n setUpSceneary3\n";
+            String report = "TestMergeSortTime1\n setUpScenary3\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary3();
             // Inicia el contador:
@@ -134,7 +125,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime2()
         {
-            String report = "TestMergeSortTime2\n setUpSceneary4\n";
+            String report = "TestMergeSortTime2\n setUpScenary4\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary4();
             // Inicia el contador:
@@ -168,7 +159,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime3()
         {
-            String report = "TestMergeSortTime3\n setUpSceneary5\n";
+            String report = "TestMergeSortTime3\n setUpScenary5\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary5();
             // Inicia el contador:
@@ -202,7 +193,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime4()
         {
-            String report = "TestMergeSortTime4\n setUpSceneary6\n";
+            String report = "TestMergeSortTime4\n setUpScenary6\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary6();
             // Inicia el contador:
@@ -236,7 +227,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime5()
         {
-            String report = "TestMergeSortTime5\n setUpSceneary7\n";
+            String report = "TestMergeSortTime5\n setUpScenary7\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary7();
             // Inicia el contador:
@@ -270,7 +261,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime6()
         {
-            String report = "TestMergeSortTime6\n setUpSceneary8\n";
+            String report = "TestMergeSortTime6\n setUpScenary8\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary8();
             // Inicia el contador:
@@ -304,7 +295,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime7()
         {
-            String report = "TestMergeSortTime7\n setUpSceneary9\n";
+            String report = "TestMergeSortTime7\n setUpScenary9\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary9();
             // Inicia el contador:
@@ -338,7 +329,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime8()
         {
-            String report = "TestMergeSortTime8\n setUpSceneary10\n";
+            String report = "TestMergeSortTime8\n setUpScenary10\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary10();
             // Inicia el contador:
@@ -372,7 +363,7 @@ namespace test
         [TestMethod]
         public void TestMergeSortTime9()
         {
-            String report = "TestMergeSortTime9\n setUpSceneary11\n";
+            String report = "TestMergeSortTime9\n setUpScenary11\n";
             String[] cloneArray = (String[])testArray.Clone();
             setUpScenary11();
             // Inicia el contador:

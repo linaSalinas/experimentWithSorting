@@ -4,3 +4,9 @@ D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSo
 D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\obj\Debug\writter.exe
 D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\obj\Debug\writter.pdb
 D:\MIS DOCUMENTOS\Documents\2020-1\Proyecto_Integrador\taller-4\experimentWithSorting\writter\obj\Debug\writter.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\experimentWithSorting\writter\bin\Debug\writter.exe.config
+C:\Users\Usuario\source\repos\experimentWithSorting\writter\bin\Debug\writter.exe
+C:\Users\Usuario\source\repos\experimentWithSorting\writter\bin\Debug\writter.pdb
+C:\Users\Usuario\source\repos\experimentWithSorting\writter\obj\Debug\writter.csprojAssemblyReference.cache
+C:\Users\Usuario\source\repos\experimentWithSorting\writter\obj\Debug\writter.exe
+C:\Users\Usuario\source\repos\experimentWithSorting\writter\obj\Debug\writter.pdb

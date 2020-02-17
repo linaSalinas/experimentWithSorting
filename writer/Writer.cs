@@ -10,30 +10,30 @@ namespace writer
     public class Writer
     {
         public const String NAME_FILE_Aleatorio_10_2 = "Aleatorio-10^2";
-        public const String NAME_FILE_Aleatorio_10_5 = "Aleatorio-10^5";
-        public const String NAME_FILE_Aleatorio_10_8 = "Aleatorio-10^8";
+        public const String NAME_FILE_Aleatorio_10_4 = "Aleatorio-10^4";
+        public const String NAME_FILE_Aleatorio_10_6 = "Aleatorio-10^6";
         public const String NAME_FILE_Orden_Ascendente_10_2 = "Orden-Ascendente-10^2";
-        public const String NAME_FILE_Orden_Ascendente_10_5 = "Orden-Ascendente-10^5";
-        public const String NAME_FILE_Orden_Ascendente_10_8 = "Orden-Ascendente-10^8";
+        public const String NAME_FILE_Orden_Ascendente_10_4 = "Orden-Ascendente-10^4";
+        public const String NAME_FILE_Orden_Ascendente_10_6 = "Orden-Ascendente-10^6";
         public const String NAME_FILE_Orden_Descendente_10_2 = "Orden-Ascendente-10^2";
-        public const String NAME_FILE_Orden_Descendente_10_5 = "Orden-Ascendente-10^5";
-        public const String NAME_FILE_Orden_Descendente_10_8 = "Orden-Ascendente-10^8";
+        public const String NAME_FILE_Orden_Descendente_10_4 = "Orden-Ascendente-10^4";
+        public const String NAME_FILE_Orden_Descendente_10_6 = "Orden-Ascendente-10^6";
 
 
         [STAThread]
             static void Main(string[] args)
             {
                 Writter(NAME_FILE_Aleatorio_10_2, 100);
-                Writter(NAME_FILE_Aleatorio_10_5, 100000);
-                Writter(NAME_FILE_Aleatorio_10_8, 100000000);
+                Writter(NAME_FILE_Aleatorio_10_4, 10000);
+                Writter(NAME_FILE_Aleatorio_10_6, 1000000);
 
                 Writter(NAME_FILE_Orden_Ascendente_10_2, 100, true);
-                Writter(NAME_FILE_Orden_Ascendente_10_5, 100000, true);
-                Writter(NAME_FILE_Orden_Ascendente_10_8, 100000000, true);
+                Writter(NAME_FILE_Orden_Ascendente_10_4, 10000, true);
+                Writter(NAME_FILE_Orden_Ascendente_10_6, 1000000, true);
 
                 Writter(NAME_FILE_Orden_Descendente_10_2, 100, false);
-                Writter(NAME_FILE_Orden_Descendente_10_5, 100000, false);
-                Writter(NAME_FILE_Orden_Descendente_10_8, 100000000, false);
+                Writter(NAME_FILE_Orden_Descendente_10_4, 10000, false);
+                Writter(NAME_FILE_Orden_Descendente_10_6, 1000000, false);
         }
 
         public static void Writter(String fileName, int size) { 

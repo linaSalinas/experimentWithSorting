@@ -1,9 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\sorting",
     "\\test"
   ],
-  "SelectedNode": "\\sorting\\MergeSort.cs",
+  "SelectedNode": "\\test\\QuickSortTest.cs",
   "PreviewInSolutionExplorer": false
 }
