@@ -16,24 +16,24 @@ namespace writter
         public const String NAME_FILE_Orden_Ascendente_10_2 = "Orden-Ascendente-10^2";
         public const String NAME_FILE_Orden_Ascendente_10_5 = "Orden-Ascendente-10^5";
         public const String NAME_FILE_Orden_Ascendente_10_8 = "Orden-Ascendente-10^8";
-        public const String NAME_FILE_Orden_Descendente_10_2 = "Orden-Ascendente-10^2";
-        public const String NAME_FILE_Orden_Descendente_10_5 = "Orden-Ascendente-10^5";
-        public const String NAME_FILE_Orden_Descendente_10_8 = "Orden-Ascendente-10^8";
+        public const String NAME_FILE_Orden_Descendente_10_2 = "Orden-Descendente-10^2";
+        public const String NAME_FILE_Orden_Descendente_10_5 = "Orden-Descendente-10^5";
+        public const String NAME_FILE_Orden_Descendente_10_8 = "Orden-Descendente-10^8";
 
         static void Main(string[] args)
         {
             Console.WriteLine("Inicia");
-            Writter1(NAME_FILE_Aleatorio_10_2, 100);
+           /*Writter1(NAME_FILE_Aleatorio_10_2, 100);
             Writter1(NAME_FILE_Aleatorio_10_5, 100000);
-            Writter1(NAME_FILE_Aleatorio_10_8, 100000000);
+            Writter1(NAME_FILE_Aleatorio_10_8, 100000000);*/
 
-            Writter2(NAME_FILE_Orden_Ascendente_10_2, 100, true);
-            Writter2(NAME_FILE_Orden_Ascendente_10_5, 100000, true);
+            //Writter2(NAME_FILE_Orden_Ascendente_10_2, 100, true);
+            //Writter2(NAME_FILE_Orden_Ascendente_10_5, 100000, true);
             Writter2(NAME_FILE_Orden_Ascendente_10_8, 100000000, true);
 
-            Writter2(NAME_FILE_Orden_Descendente_10_2, 100, false);
-            Writter2(NAME_FILE_Orden_Descendente_10_5, 100000, false);
-            Writter2(NAME_FILE_Orden_Descendente_10_8, 100000000, false);
+            //Writter2(NAME_FILE_Orden_Descendente_10_2, 100, false);
+            //Writter2(NAME_FILE_Orden_Descendente_10_5, 100000, false);
+            //Writter2(NAME_FILE_Orden_Descendente_10_8, 100000000, false);
 
             Console.WriteLine("Termino");
             Console.Read();
